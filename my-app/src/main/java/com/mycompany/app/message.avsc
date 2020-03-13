@@ -1,0 +1,16 @@
+{
+	"namespace": "importservice.events",
+	"type": "enum",
+	"name": "LogLevel",
+	"symbols": ["None", "Verbose", "Info", "Warning", "Error"]
+}
+
+{
+	"namespace": "importservice.events",
+	"type": "record",
+	"name": "ImportMessage",
+	"fields": [
+		{ "name": "id", "type": "string" },
+		{ "name": "StartDate", "type": "string" }	
+	]
+}
